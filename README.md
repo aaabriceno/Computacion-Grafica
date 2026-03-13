@@ -9,7 +9,7 @@
 Repositorio del curso **CS251 – Computación Gráfica** de la  
 **Universidad Católica San Pablo – Escuela Profesional de Ciencia de la Computación**.
 
-Este repositorio contiene **laboratorios, prácticas, proyectos y notas** desarrollados durante el curso.
+Este repositorio contiene **laboratorios, prácticas y notas** desarrollados durante el curso.
 
 ---
 
