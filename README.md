@@ -1,8 +1,29 @@
-# 🎨 CS251 – Computación Gráfica
+# 🎨 CS251 – Computer Graphics
 
-Repositorio del curso **CS251 – Computación Gráfica** de la **Escuela Profesional de Ciencia de la Computación – Universidad Católica San Pablo (UCSP)**.
+![UCSP](https://img.shields.io/badge/University-UCSP-blue)
+![Course](https://img.shields.io/badge/Course-CS251-blue)
+![Language](https://img.shields.io/badge/Language-C++-orange)
+![Graphics](https://img.shields.io/badge/Graphics-OpenGL-green)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
-Este repositorio contiene materiales, prácticas, laboratorios y proyectos desarrollados durante el curso.
+Repositorio del curso **CS251 – Computación Gráfica** de la  
+**Universidad Católica San Pablo – Escuela Profesional de Ciencia de la Computación**.
+
+Este repositorio contiene **laboratorios, prácticas, proyectos y notas** desarrollados durante el curso.
+
+---
+
+# 📚 Tabla de Contenidos
+
+- [Información del curso](#-información-del-curso)
+- [Descripción](#-descripción)
+- [Objetivos](#-objetivos)
+- [Contenido del curso](#-contenido-del-curso)
+- [Estructura del repositorio](#-estructura-del-repositorio)
+- [Tecnologías utilizadas](#-tecnologías-utilizadas)
+- [Evaluación](#-evaluación)
+- [Bibliografía](#-bibliografía)
+- [Autor](#-autor)
 
 ---
 
@@ -10,13 +31,12 @@ Este repositorio contiene materiales, prácticas, laboratorios y proyectos desar
 
 | Campo | Información |
 |------|-------------|
-| Curso | CS251 – Computación Gráfica |
-| Escuela | Ciencia de la Computación |
+| Curso | **CS251 – Computación Gráfica** |
 | Universidad | Universidad Católica San Pablo |
+| Escuela | Ciencia de la Computación |
 | Semestre | 7mo |
 | Créditos | 4 |
 | Horas | 2 HT / 2 HP / 2 HL |
-| Modalidad | Virtual |
 
 ### Prerrequisitos
 
@@ -25,76 +45,67 @@ Este repositorio contiene materiales, prácticas, laboratorios y proyectos desar
 
 ---
 
-# 📖 Descripción del curso
+# 🧠 Descripción
 
-El curso ofrece una introducción al área de **Computación Gráfica**, una parte importante dentro de las Ciencias de la Computación.
+El curso introduce los **principios fundamentales de la Computación Gráfica**, explorando técnicas utilizadas en:
 
-El propósito del curso es investigar los **principios, técnicas y herramientas fundamentales** utilizadas para desarrollar aplicaciones gráficas, especialmente aquellas relacionadas con **visualización, modelado y animación en 3D**.
+- visualización
+- modelado geométrico
+- renderizado
+- animación por computadora
+- sistemas gráficos interactivos
 
----
-
-# 🎯 Objetivos del curso
-
-- Comprender los **principios y técnicas utilizadas en aplicaciones gráficas 3D complejas**.
-- Aprender a **seleccionar software y plataformas gráficas adecuadas** para desarrollar aplicaciones.
-- Implementar **programas para visualización y manipulación de modelos gráficos**.
+Se estudian tanto los **fundamentos matemáticos** como las **técnicas de implementación utilizadas en motores gráficos modernos**.
 
 ---
 
-# 🧠 Resultados de aprendizaje
+# 🎯 Objetivos
 
-El curso contribuye a que el estudiante pueda:
-
-- Analizar **problemas computacionales complejos** y aplicar principios computacionales para identificar soluciones.
-- Aplicar **fundamentos de ciencias de la computación y desarrollo de software** para producir soluciones basadas en computación.
+- Comprender los **principios y técnicas de aplicaciones gráficas 3D**.
+- Implementar **programas de visualización gráfica**.
+- Aplicar **transformaciones geométricas en 2D y 3D**.
+- Comprender el **pipeline gráfico moderno**.
+- Desarrollar **renderizadores básicos utilizando APIs gráficas**.
 
 ---
 
-# 📚 Contenidos del curso
+# 📖 Contenido del curso
 
 ## 1️⃣ Conceptos Fundamentales
 
 - Aplicaciones multimedia
-- Interfaces gráficas
-- Representación de imágenes (vector vs raster)
+- Representación vectorial vs raster
 - Modelos de color RGB y CMYK
-- Representación de imágenes mediante píxeles
-- Animación como secuencia de imágenes
+- Representación de imágenes por píxeles
+- Animación basada en frames
 
 ---
 
 ## 2️⃣ Rendering Básico
 
-- Radiometría básica
-- Proyecciones geométricas
-- Transformaciones en 2D y 3D
-- Ray casting
-- Rasterización
-- Ray tracing
-- Visibilidad y oclusión
-- Z-buffer
 - Pipeline gráfico
+- Rasterización
+- Ray casting
+- Ray tracing
+- Transformaciones geométricas
+- Proyecciones 3D
+- Z-buffer
 - Anti-aliasing
 - Texturas
 
 ---
 
-## 3️⃣ Programación de Sistemas Interactivos
+## 3️⃣ Sistemas Interactivos
 
 - Manejo de eventos
-- Interacción usuario-sistema
 - Interfaces táctiles
 - Interfaces móviles
-- Reconocimiento de voz
-- Sistemas interactivos avanzados
+- Sistemas interactivos
 
 ---
 
 ## 4️⃣ Modelado Geométrico
 
-- Operaciones geométricas básicas
-- Intersección y proximidad
-- Curvas polinomiales
 - Curvas Bézier
 - Splines
 - NURBS
@@ -112,30 +123,27 @@ El curso contribuye a que el estudiante pueda:
 - Shadow mapping
 - Renderizado no fotorealista
 - Arquitectura GPU
-- Ecuación de renderizado
 
 ---
 
 ## 6️⃣ Animación por Computadora
 
 - Cinemática directa e inversa
-- Detección de colisiones
 - Sistemas de partículas
 - Animación basada en física
 - Keyframe animation
-- Splines
 - Cuaterniones
-- Animación de cámara
 - Motion capture
 
 ---
 
-# 🗂️ Estructura del repositorio
+# 📂 Estructura del repositorio
 
 ```bash
-Computacion-Grafica/
+computer-graphics/
 │
 ├── README.md
+│
 ├── labs/
 │   ├── lab1/
 │   ├── lab2/
@@ -147,7 +155,11 @@ Computacion-Grafica/
 │
 ├── projects/
 │   ├── project1/
+│   ├── project2/
+│
+├── notes/
 │
 └── resources/
     ├── slides/
     ├── papers/
+    ├── references/
