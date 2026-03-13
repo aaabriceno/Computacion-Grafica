@@ -152,10 +152,7 @@ computer-graphics/
 ├── assignments/
 │   ├── assignment1/
 │   ├── assignment2/
-│
-├── projects/
-│   ├── project1/
-│   ├── project2/
+│ 
 │
 ├── notes/
 │
